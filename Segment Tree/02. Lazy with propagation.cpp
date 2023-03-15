@@ -15,7 +15,6 @@ void reload(int n) {
     for(int i=0; i<=4*n; i++) {
         tree[i] = 0;
         lazy[i] = 0;
-        arr[i] = 0;
     }
 }
 
